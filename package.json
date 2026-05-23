@@ -1,0 +1,21 @@
+{
+  "name": "kakao-bot",
+  "version": "1.0.0",
+  "description": "카카오톡 봇 테스트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donghyeonkakao-ship-it/kakao-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/donghyeonkakao-ship-it/kakao-bot/issues"
+  },
+  "homepage": "https://github.com/donghyeonkakao-ship-it/kakao-bot#readme"
+}

@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: aisi-scheduler
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python scheduler/daily_briefing.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_KEY
+        sync: false
