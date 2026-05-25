@@ -73,11 +73,4 @@ def _get_price_summary(ticker: str, name: str) -> str:
 
 
 if __name__ == "__main__":
-    # 즉시 1회 실행
     run_daily_briefing()
-
-    # 매일 오전 7시 스케줄
-    scheduler = BlockingScheduler(timezone="Asia/Seoul")
-    scheduler.add_job(run_daily_briefing, "cron", hour=7, minute=0)
-    print("[배치] 스케줄러 시작 — 매일 07:00 KST 실행")
-    scheduler.start()
